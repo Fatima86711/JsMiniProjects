@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", serif;
+  color: #2f3542;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #57606f;
+}
+
+.box {
+  background-color: #dfe4ea;
+  height: 60vh;
+  width: 80%;
+  display: flex;
+  /* padding: 50px; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.col_options {
+  margin: 5px;
+  margin-bottom: 0;
+}
+.col_options label:hover {
+  cursor: pointer;
+}
+#sub_btn {
+  background-color: #2f3542;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  /* margin: 10px; */
+  color: #ced6e0;
+}
+#sub_btn:active {
+  cursor: pointer;
+  transform: scale(0.8);
+  background-color: #76787c;
+  border: none;
+  outline: none;
+}
+#sub_btn:hover {
+  cursor: pointer;
+  background-color: #525a69;
+  color: white;
+  border: none;
+  outline: none;
+}
+.options {
+  margin: 10px;
+  padding: 10px;
+}
