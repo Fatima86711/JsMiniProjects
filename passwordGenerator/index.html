@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="box">
+        <span id="pass">Dummy Password</span>
+        <div class="selcontent">
+          <div class="size">
+            <div class="left"><p>Letters</p></div>
+            <div class="right">
+              <input type="number" id="count" value="8" max="30" min="3" />
+            </div>
+          </div>
+          <div class="upperchar row">
+            <label for="upper_case"
+              ><div class="left">
+                <p>Contains Upper Case Letters</p>
+              </div>
+            </label>
+            <div class="right">
+              <input type="checkbox" id="upper_case" checked />
+            </div>
+          </div>
+          <div class="lowerchar row">
+            <label for="lower_case"
+              ><div class="left"><p>Contains Lower Case Letters</p></div></label
+            >
+            <div class="right">
+              <input type="checkbox" id="lower_case" />
+            </div>
+          </div>
+          <div class="numbers row">
+            <label for="nums"
+              ><div class="left"><p>Contains Numbers</p></div></label
+            >
+            <div class="right"><input type="checkbox" id="nums" /></div>
+          </div>
+          <div class="symbols row">
+            <label for="symb"
+              ><div class="left"><p>Contains Symbols</p></div></label
+            >
+            <div class="right"><input type="checkbox" id="symb" /></div>
+          </div>
+        </div>
+        <div class="generate">
+          <button id="generate">Generate</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
